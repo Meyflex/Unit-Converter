@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@100;200;300;400;500;600;700;800&family=Orbitron:wght@400;700&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   background-color: #3D3D3D;
+}
+.box-generale {
+   
+    width: 550px;
+    height:730px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    border-radius: 5px;
+}
+.box-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6943FF;
+    height: 285px;
+    color: #FFFFFF;
+    font-family: Inter;
+
+   
+}
+
+.box-unit-coverter{
+    height: 450PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Inter;
+    font-weight:600 ;
+    
+  
+}
+#coverter{
+    width: 500px;
+    height: 108px;
+    text-align: center;
+    background-color: #273549;
+    border-radius: 5px;
+    color: #CCC1FF;
+}
+#input_val{
+    width: 117px;
+    height: 83px;
+    background-color: #6943FF;
+    text-align: center;
+    border: 2px solid #CCC1FF;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 10px;
+    font-size: 58px;
+   
+    font-family: Inter;
+    font-weight:800;
+
+}
+#input_val:focus{
+    outline: none;
+}
+#input_val::placeholder{
+    font-size: 58px;
+    color: #ffffff;
+}
+#button{
+    width: 117px;
+    height: 42px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    color: #3D3D3D;
+   border: none;
+   margin: 10px;
+   font-family: inherit;
+    font-weight: 500;
+}
+#button:hover{
+    border: #1F2937 2px solid;  
+}
+
+p{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 400;
+}
