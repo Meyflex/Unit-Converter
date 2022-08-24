@@ -71,7 +71,7 @@ Pour mettre en place une copie locale et la faire fonctionner, suivez les étape
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Utiliser la Template pour faire un site simple en HTML CSS.
+Convertir toutes le donnee du systeme metric a imperial et imperial a metric
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
